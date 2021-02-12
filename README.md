@@ -30,3 +30,22 @@ The folder Puzzle Visualizer contains a simple HTML page that takes a serialized
 The data folder contains the puzzles and results to the experiment.
 
 Documentation.pdf contains a more in-depth talk about the program and compares results of the experiment.
+
+***
+
+A serialized puzzle has the following form  
+**size_of_board|piece1|...|pieceN*N|**  
+and the empty piece is noted with **-1**
+
+For example:
+
+![Puzzle 1](Data/images/puzzle1.png)
+
+is serialized as  
+**4|5|7|3|8|6|10|11|1|-1|13|14|2|9|12|15|4|**  
+
+and  
+
+![Puzzle 2](Data/images/puzzle2.png)  
+as  
+**4|-1|10|4|15|2|1|13|12|11|3|6|7|9|5|14|8|**
