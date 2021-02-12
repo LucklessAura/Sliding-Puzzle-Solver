@@ -1,0 +1,68 @@
+html
+{
+    background-color: rgb(228, 232, 236);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Verdana";
+    font-size: larger;
+}
+
+form
+{
+    margin-top: 10vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vw;
+}
+
+div#output
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 7px;
+    background-color: #55361b;
+}
+
+
+div#output div.row
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(193, 156, 87);
+}
+
+div#output div.row div
+{
+    display: flex;
+    border: 1px black solid;
+    background-color: rgb(162, 103, 52);
+    margin: 5px;
+    width: 4vw;
+    height: 4vw;
+    align-items: center;
+}
+
+div#output div.row div#empty
+{
+    display: flex;
+    border: 1px black solid;
+    background-color: rgb(193, 156, 87);
+    margin: 5px;
+    width: 4vw;
+    height: 4vw;
+    align-items: center;
+}
+
+div#output div.row div p
+{
+    text-align: center;
+    width: 100%;
+}

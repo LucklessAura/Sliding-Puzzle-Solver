@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+
+Documentation
+MPIexec caller
+*.vs
+*Debug
+*Release
+*x64
+*.sln
+*.DotSettings
