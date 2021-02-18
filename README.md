@@ -1,4 +1,4 @@
-## Serial and Parallel( using MPI) impelmentations of IDA* for solving the sliding puzzle problem 
+## Serial and Parallel( using MPI) implementations of IDA* for solving the sliding puzzle problem 
 
 This repo contains 2 programs:  
 
